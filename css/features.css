@@ -1,0 +1,31 @@
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.features-list .feature {
+  flex-basis: 264px;
+}
+
+.feature-title {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.feature .decoration {
+  position: relative;
+  height: 112px;
+  margin-bottom: 8px;
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+  background: var(--cloud);
+}
+
+.decoration .icon {
+  display: block;
+  position: absolute;
+  top: calc(50% - 32px);
+  left: calc(50% - 32px);
+}

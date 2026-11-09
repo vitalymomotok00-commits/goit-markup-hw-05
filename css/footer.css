@@ -1,0 +1,125 @@
+.footer {
+  padding: 100px 0;
+  background-color: var(--navy-blue);
+}
+
+.footer .container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.footer .left {
+  display: inline-block;
+  margin-right: 120px;
+}
+
+.footer .socials {
+  display: inline-block;
+  width: 208px;
+  margin-right: 83px;
+}
+
+.footer .subscribe {
+  display: inline-block;
+  width: 453px;
+}
+
+.socials .social-links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: var(--cloud);
+  background-color: var(--iris);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer .link:hover,
+.footer .link:focus {
+  background-color: var(--green);
+}
+
+.left .text {
+  width: 264px;
+  color: var(--cloud);
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 16px;
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--cloud);
+}
+
+.socials .text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.subscribe-text {
+  font-weight: 500;
+  margin-bottom: 16px;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.subscribe .subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
+.subscribe .subscribe-input {
+  letter-spacing: 0.04em;
+  color: var(--white);
+  font-size: 12px;
+  line-height: 1.16667;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  padding: 8px 16px;
+  width: 264px;
+  height: 40px;
+  background-color: inherit;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe .subscribe-input::placeholder {
+  color: inherit;
+}
+
+.subscribe .subscribe-input:focus {
+  outline: 0;
+  border-color: var(--green);
+}
+
+.subscribe .submit-btn {
+  display: flex;
+  gap: 16px;
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 24px;
+  min-width: 165px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background-color: var(--iris);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe .submit-btn:hover,
+.subscribe .submit-btn:focus {
+  background-color: var(--green);
+}
